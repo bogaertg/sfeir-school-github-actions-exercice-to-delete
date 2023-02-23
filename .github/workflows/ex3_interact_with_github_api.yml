@@ -4,8 +4,8 @@ on:
 
 jobs:
   run-npm-test:
- #   permissions:
-  #    issues: write
+    permissions:
+      issues: write
     runs-on: ubuntu-latest
     steps:
       - id: short_sha
